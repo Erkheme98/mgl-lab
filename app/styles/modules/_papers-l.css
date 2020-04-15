@@ -1,0 +1,42 @@
+.papers-l{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    &__nav {
+        position:  relative;
+        top: 0;
+        left: 10px;            
+        transition: 0.5s;
+        @mixin atLarge {
+            text-align: center;
+            width: 100%;
+            height: 50px;
+            padding: 10px 100px;
+            box-sizing: border-box; 
+            transition: 0.5s;
+        }
+    }
+    &__tab-nav{
+       margin:0;
+       padding-left: 120px;
+       padding-right: 200px;
+       display: flex;
+       
+    }
+     nav ul li {
+        list-style: none;
+    }
+    &__button{
+        float: left;
+        list-style: 80px;
+        color: #262626;
+        padding: 5px 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+    }
+    &--active,
+    :hover{
+        color: blue;
+    }
+}
