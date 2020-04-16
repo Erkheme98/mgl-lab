@@ -10,7 +10,7 @@
     &--testimonial{
         background-color: #e0e6ef;
         @mixin atLarge{        
-        background: url("/image/mongolian.jpg") no-repeat top center/cover;
+        background: url("/image/bg.jpg") no-repeat top center/cover;
         }    
     }
 }
